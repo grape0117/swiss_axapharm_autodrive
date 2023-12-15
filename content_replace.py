@@ -3,14 +3,14 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-folder_path = './fi_fr_html'
+folder_path = './output/pis/pi_it_html'
 
 html_files = [file for file in os.listdir(folder_path) if file.endswith('.html')]
 
-with open('fi_de_data.json') as f:
+with open('./convert/pi_de_data.json') as f:
     data = json.load(f)
 
-with open('fi_key.json') as f:
+with open('key.json') as f:
     keys = json.load(f)
 
 # print(len(data))
@@ -50,6 +50,6 @@ for file_name in html_files:
     i = i + 1
     print("i == ", i)
 
-output_file = 'fi_fr_output.json'  # Specify the name of the output file
+output_file = 'pi_it_output.json'  # Specify the name of the output file
 with open(output_file, 'w') as file:
     json.dump(result, file)
