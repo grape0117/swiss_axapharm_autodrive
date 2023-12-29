@@ -6,13 +6,13 @@ import re
 
 java_file_path = "aips2sqlite.jar"
 commands = [
-    'java -jar -Xmx8000m aips2sqlite.jar --owner=Axapharm –plain --xml --lang=de --pinfo',
-    'java -jar -Xmx8000m aips2sqlite.jar --nodown --owner=Axapharm --plain --xml --lang=fr --pinfo',
-    'java -jar -Xmx8000m aips2sqlite.jar --nodown --owner=Axapharm --plain --xml --lang=it --pinfo',
-    'java -jar -Xmx8000m aips2sqlite.jar --owner=Axapharm –plain --xml --lang=de',
-    'java -jar -Xmx8000m aips2sqlite.jar --nodown --owner=Axapharm --plain --xml --lang=fr',
-    'java -jar -Xmx8000m aips2sqlite.jar --nodown --owner=Axapharm --plain --xml --lang=it',
-    ]
+    ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--owner=Axapharm', '–plain', '--xml', '--lang=de', '--pinfo'],
+    ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--nodown', '--owner=Axapharm', '--plain', '--xml', '--lang=fr', '--pinfo'],
+    ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--nodown', '--owner=Axapharm', '--plain', '--xml', '--lang=it', '--pinfo'],
+    ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--owner=Axapharm', '–plain', '--xml', '--lang=de'],
+    ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--nodown', '--owner=Axapharm', '--plain', '--xml', '--lang=fr'],
+    ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--nodown', '--owner=Axapharm', '--plain', '--xml', '--lang=it']
+]
 
 languages = ['fr', 'it']
 folders = ['pi', 'fi']
@@ -25,8 +25,8 @@ missing_files = ['25930', '29934', '56917', '58454', '58694', '58768', '58981',
     
 def download_files():
     for command in commands:
+        print("command \"", command, "\" is successfully executed!")
         subprocess.run(command)  
-        print("command \" {command} \" is successfully executed!")
         
 def handle_missing_files():
 
@@ -163,7 +163,7 @@ def convert_other_versions():
                 
             print(f"Data written to {output_file}.")
                 
-# download_files()
+download_files()
 handle_missing_files()
 make_de_version()
 convert_other_versions()
