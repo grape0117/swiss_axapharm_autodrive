@@ -1,4 +1,4 @@
-Please download the this repo.
+Please pull this repo.
 
 1. Mac Version<br>
   -	Prerequisites<br>
