@@ -2,7 +2,7 @@
 
 1. Mac Version<br>
   -	Prerequisites<br>
-  	You should install python and java(jdk) on your PC.<br>
+  	You should install python and java(jdk) on your PC. <br>
   -	How to use<br>
      a.	Place auto_drive.py with the aips2sqlite.jar file in the same directory.<br>
      b.	Open auto_drive.py.<br>
