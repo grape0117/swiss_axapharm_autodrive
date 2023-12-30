@@ -24,4 +24,8 @@ Please download the this repo.
       d.	You can upload that folder to your admin panel.<br>
 
       <b>Addition</b>: How to use .exe file<br>
-   	 In Windows_version folder, you can find out the folder named <code>dist</code><br>
+   	 In windows_version folder, you can find out the folder named <code>dist</code><br>
+     Please copy <code>aips2sqlite.jar</code> file in the same directory with <code>auto_drive.exe</code><br>
+     Please run <code>auto_drive.exe</code> by double-clicking.
+   	 It takes some time to complete. In the same directory, some folders are resulted. The database_json folder is the output which we should use.<br>
+     Then you can upload that folder to your admin panel.<br>
