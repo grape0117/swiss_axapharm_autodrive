@@ -5,6 +5,7 @@ import json
 import re
 
 java_file_path = "aips2sqlite.jar"
+
 commands = [
     ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--owner=Axapharm', '–plain', '--xml', '--lang=de', '--pinfo'],
     ['java', '-jar', '-Xmx8000m', 'aips2sqlite.jar', '--nodown', '--owner=Axapharm', '--plain', '--xml', '--lang=fr', '--pinfo'],
