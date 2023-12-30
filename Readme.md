@@ -24,4 +24,4 @@ Please download the this repo.
       d.	You can upload that folder to your admin panel.<br>
 
       <b>Addition</b>: How to use .exe file<br>
-   	 In Windows_version folder, you can find out the folder named <b>dist</b><br>
+   	 In Windows_version folder, you can find out the folder named <code>dist</code><br>
