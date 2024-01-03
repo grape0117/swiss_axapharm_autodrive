@@ -9,7 +9,7 @@
      c.	Execute the following command in terminal.<br>
         <code>python3 auto_drive.py</code><br>
         This command takes some time to complete. In the same directory, some folders are resulted. The database_json folder is the output which we should use.<br>
-     d.	You can upload that folder to your admin panel.<br>
+     d.	You can upload that folder to your admin panel instead of the old database_json folder.<br>
 
 <br><br><br>
 2. Windows Version<br>
@@ -28,4 +28,4 @@
      Please copy <code>aips2sqlite.jar</code> file in the same directory with <code>auto_drive.exe</code><br>
      Please run <code>auto_drive.exe</code> by double-clicking.
    	 It takes some time to complete. In the same directory, some folders are resulted. The database_json folder is the output which we should use.<br>
-     Then you can upload that folder to your admin panel.<br>
+     Then you can upload that folder to your admin panel instead of the old database_json folder.<br>
