@@ -1,4 +1,4 @@
-<h1>Please pull this repo.</h1>
+![image](https://github.com/grape0117/swiss_axapharm_autodrive/assets/137514549/541bca8b-db25-49f6-98ea-56ce314b0896)<h1>Please pull this repo.</h1>
 
 1. Mac Version<br>
   -	Prerequisites<br>
@@ -8,8 +8,11 @@
      b.	Open auto_drive.py.<br>
      c.	Execute the following command in terminal.<br>
         <code>python3 auto_drive.py</code><br>
-        This command takes some time to complete. In the same directory, some folders are resulted. The database_json folder is the output which we should use.<br>
-     d.	You can upload that folder to your admin panel instead of the old database_json folder.<br>
+        This command takes some time to complete. In the same directory, some folders will be resulted after execution. The database_json folder is the output which we should use.<br>
+     d. Click the WP file manager plugin in your admin panel.<br>
+   	    You can upload new database_json folder instead of the old database_json folder.<br>
+        ![image](https://github.com/grape0117/swiss_axapharm_autodrive/assets/137514549/d30dc51a-023c-4974-b601-281686e7a924)
+
 
 <br><br><br>
 2. Windows Version<br>
@@ -21,7 +24,7 @@
       c.	Execute the following command in terminal.<br>
           <code>python auto_drive.py</code><br>
           This command takes some time to complete. In the same directory, some folders are resulted. The database_json folder is the output which we should use.<br>
-      d.	You can upload that folder to your admin panel.<br>
+      d.	You can upload new database_json folder to WP file manager plugin in your admin panel instead of the old database_json folder.<br>
 
       <b>Addition</b>: How to use .exe file<br>
    	 In windows_version folder, you can find out the folder named <code>dist</code><br>
